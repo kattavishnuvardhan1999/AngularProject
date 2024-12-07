@@ -1,0 +1,27 @@
+<p>roles works!</p>
+<div class="row">
+  <div class="col-3">
+    <p>{{ firstName }}</p>
+  </div>
+  <div class="col-3">
+    <p>{{ selectedState }}</p>
+  </div>
+  <div class="col-3">
+    <p>{{ currentDate }}</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-3">
+    <input type="text" [value]="firstName" class="form-control" />
+  </div>
+  <div class="col-3">
+    <input type="text" [(ngModel)]="firstName" />
+  </div>
+  <div class="col-3">
+    <select [(ngModel)]="selectedState">
+      <option value="KA">KA</option>
+      <option value="AP">Ap</option>
+      <option value="TN">TN</option>
+    </select>
+  </div>
+</div>

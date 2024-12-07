@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Admin",
+      "description": "Has full access to the system.",
+      "permissions": ["read", "write", "delete"]
+    },
+    {
+      "id": 2,
+      "name": "Editor",
+      "description": "Can edit content but has limited administrative access.",
+      "permissions": ["read", "write"]
+    },
+    {
+      "id": 3,
+      "name": "Viewer",
+      "description": "Can only view content without making changes.",
+      "permissions": ["read"]
+    }
+  ]
